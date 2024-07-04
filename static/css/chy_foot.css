@@ -1,0 +1,45 @@
+@charset "utf-8";
+/* CSS Document */
+
+body,ul,ol,li,p,h1,h2,h3,h4,h5,h6,form,fieldset,table,td,img,div{
+	border:0;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0;
+	margin-left: 0;
+	padding: 0;
+}
+ul,ol{list-style-type:none;}
+select,input,img,select{vertical-align:middle;}
+h1 {
+	font-size: 16px;
+	font-weight: bold;
+}
+h2 {
+	font-size: 14px;
+	font-weight: bold;
+}
+body {
+	font-size: 12px;
+	line-height: 20px;
+	font-family: "宋体";
+}
+select{ width:160px;
+height:22px;
+line-height:22px;}
+A:link {
+	COLOR: #333;	TEXT-DECORATION: none;
+}
+A:visited {
+	COLOR: #333; TEXT-DECORATION: none;
+}
+A:active {
+	COLOR: #333; TEXT-DECORATION: none; 
+}
+A:hover {
+	COLOR: #e90000;
+	TEXT-DECORATION: none;
+	
+}
+#foottopt{
+background:url(../images/linetable.gif) no-repeat top left;}

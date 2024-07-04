@@ -1,0 +1,155 @@
+@charset "utf-8";
+/* CSS Document */
+.word_letter{
+	letter-spacing:3px;
+}
+#header{
+	width:980px;
+	overflow:hidden;
+	padding-bottom:6px;
+}
+#Logo{
+	background:url(../images/logo.jpg) no-repeat;
+	height:86px;
+	width:179px;
+	float:left;
+	margin-top:10px
+}
+#Logo a{
+	float:left;
+	width:175px;
+	height:65px;
+}
+#minNav{
+	background:url(../images/skin_v1.1.gif) 0px -353px repeat-x;
+	width:768px;
+	height:26px;
+	float:right;
+	padding:2px;
+	border:1px solid #FCE08B;
+	border-bottom:1px solid #CC0000;
+}
+#getDate{
+	line-height:26px;
+	color:#0C50CC;
+	margin-left:15px!important;
+	margin-left:10px;
+	width:380px;
+	float:left;
+}
+#funList{
+	float:left;
+}
+#funList ol li{
+	float:left;
+	margin:0 5px;
+}
+#Search{
+	width:200px;	
+	margin-top:2px;	
+	margin-right:10px;
+	text-align:left;
+	float:left;
+}
+#Search_btn{
+	background:url(../images/skin_v1.1.png) -12px -179px no-repeat;
+	width:52px;
+	height:22px;
+	border:0px;
+	color:#0C50CC;
+}
+#Search_txt,
+#inputwd{
+	width:140px;
+	height:20px;
+	border:1px solid #E5E5E5;
+}
+#mainNav{
+	background:#F8F8F8;
+	width:774px;
+	height:58px;
+	float:right;
+	margin-top:10px;
+}
+#mainNav .left,
+#mainNav .mid,
+#mainNav .mid_sub{
+	border-right:1px dashed #CCC;
+	overflow:hidden;
+	height:45px;
+	float:left;
+	padding:5px 5px 0;
+}
+#mainNav .left{
+	width:184px;
+	overflow:hidden;
+}
+#mainNav .mid{
+	width:270px;
+	margin-left:0px;
+	overflow:hidden;
+}
+#mainNav .mid_sub{
+	width:176px;
+	overflow:hidden;
+}
+#mainNav .right{
+	padding-top:5px;
+	width:110px;
+	overflow:hidden;
+}
+#mainNav ol li{
+	float:left;
+	padding:0 5px;
+	height:25px;
+}
+
+#mainNav{
+	float:left;
+	margin-top:0px;
+}
+#mainNav .right{
+	border-right:1px dashed #CCCCCC;
+}
+
+#contact {
+	width:191px;
+	background:#F8F8F8;
+	float:right;
+	padding-left:15px;
+	line-height:30px;
+	height:58px;
+	overflow:hidden;
+}
+#toptime {
+	width:126px;
+	height:25px;
+	overflow:hidden;
+	line-height:25px;
+	float:left;
+	color:#0C50CC;
+	margin-top:5px;
+}
+#topmail {
+	width:50px;
+	float:right;
+}
+
+#inputwd{
+	width:120px;
+}
+#topbanner {
+	width:788px;
+	height:94px;
+	float:right;
+	border:1px solid #CCC;
+	margin-top:5px;
+}
+#topbanner img {
+	width:788px;
+	height:94px;
+}
+
+.h3_title{
+	float:14px;
+}

@@ -1,0 +1,131 @@
+@charset "utf-8";
+#public_R_right{
+	width:305px;
+	overflow:hidden;
+	
+}
+#public_R_right .public_R_main_box
+{
+	overflow:hidden;
+	border:1px solid #cccccc;
+}
+#public_R_right .public_R_box{
+	border:1px solid #E0E0E0;
+	background:#F8F5F3;
+	overflow:hidden;
+	height:260px!important;
+	height:275px;
+	margin:0 10px;
+}
+#public_R_right .public_R_title{
+	overflow:hidden;
+	border-bottom:2px solid #996600;	
+	margin:0 10px;
+	height:32px;
+}
+#public_R_right .public_R_title h3{
+	float:left;
+	width:100px;
+	overflow:hidden;
+	line-height:32px;
+	color:#990000;
+	text-align:left;
+}
+#public_R_right .public_R_sub_title h3,
+#public_R_right .public_R_sub_title h3.libg,
+#public_R_right .public_R_title h3.libgs{
+	font-weight:normal;
+	text-align:left;
+	color:#990000;
+	float:left;
+	width:100px;
+}
+#public_R_right .public_R_sub_title{
+	margin:0 10px;
+	height:32px;
+	line-height:32px;
+	border-bottom:1px solid #996600;
+}
+#public_R_right .imgLeft_c{
+	margin:5px 10px!important;
+	margin:5px;
+	float:left;
+	overflow:hidden;
+	margin-right:5px;
+}
+#public_R_right .imgLeft_c img{
+	width:85px;
+	height:85px;
+	padding:1px;
+	border:1px solid #cccccc;
+}
+#public_R_right .imgLeft_f img{
+	width:284px;
+	height:60px;
+	border:1px solid #cccccc;
+}
+#public_R_right ul li{
+	height:25px;
+	margin:0 10px;
+}
+#public_R_right ol li{
+	height:25px;
+	overflow:hidden;
+	margin:0 12px;
+	float:left;
+}
+
+#public_R_right dl dt{
+	margin:0 10px;
+	height:auto;
+	color:#990000;
+	clear:both;
+}
+#public_R_right dl dt.imgLeft_f{
+	height:62px;
+		margin:10px;
+		margin-right:0px;
+	
+}
+#public_R_right dl dd{
+	float:left;
+	margin-left:11px !important;
+	margin-left:7px;
+	margin-right:0;
+	overflow:hidden;
+}
+#public_R_right dl dd.imgLeft_a{
+	height:63px;
+	width:136px;	
+}
+#public_R_right dl dd.imgLeft_a img{
+	width:134px;
+	height:50px;
+	border:1px solid #cccccc;
+}
+#public_R_right .line{
+	margin:0 10px;
+	clear:both;
+}
+#public_R_right .public_R_gxt{
+	margin:0 10px;
+	overflow:hidden;
+}
+#public_R_right .public_R_gxt dl dd{
+	width:272px;
+}
+#public_R_index_shu{
+	text-align:center;
+}
+#public_R_index_wenming {
+	padding-left:9px;
+	overflow:hidden;
+}
+#public_R_index_wenming img {
+	width:284px;
+	height:60px;
+}
+.public_R_main_box p {
+	line-height:20px;
+	text-indent:2em;
+}

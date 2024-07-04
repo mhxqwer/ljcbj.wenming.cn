@@ -1,0 +1,284 @@
+@charset "utf-8";
+/* CSS Document */
+@import url(master.css);/* 此CSS定义页面基本设置*/
+@import url(header.css);/* 此CSS定义头部基本框架*/
+@import url(public_right.css);/* 此CSS定义页面右侧*/
+h4{
+	height:28px;
+	text-align:center;
+	font-size:14px;
+	font-weight:bold;
+	line-height:32px;
+}
+.more {
+	line-height:24px;
+	height:24px;
+	padding-top:6px;
+}
+.more a {
+	color:#666;
+}
+.more a:hover {
+	color:#F00;
+}
+
+
+
+#main_1st {
+	width:980px;
+	margin:0 auto;
+	overflow:hidden;
+}
+#main_1st .left {
+	width:715px;
+	overflow:hidden;
+	margin-top:8px;
+}
+#main_1st .left .box_tex {
+	width:710px;
+	overflow:hidden;
+	border:1px solid #CCC;
+	margin-bottom:15px;
+}
+#main_1st .left .title {
+	background:#F0F0F0;
+	margin:2px;
+	font-size:12px;
+	padding-left:10px;
+}
+#title_tex,
+.bottom_tex {
+	margin:0 20px;
+}
+#title_tex {
+	font-size:26px;
+	font-weight:bold;
+	line-height:30px;
+	text-align:center;
+	padding:40px 0 20px;
+	border-bottom:1px solid #CCC;
+}
+.function_tex {
+	overflow:hidden;
+	margin:0 40px;
+	height:30px;
+	border-bottom:1px dashed #CCC;
+	font-size:14px;
+}
+#time_tex,
+.print_tex {
+	color:#666;
+}
+#time_tex,
+.print_tex {
+	width:350px;
+	float:left;
+	line-height:30px;
+	height:30px;
+	padding-left:10px;
+}
+.print_tex {
+	width:220px;
+	float:right;
+	padding:0;
+}
+.print_tex .font {
+	width:130px;
+	float:left;
+	text-align:center;
+}
+.print_tex .print {
+	width:45px;
+	float:left;
+	text-align:center;
+}
+.print_tex .print a {
+	color:#0C50CC;
+}
+.print_tex .print a:hover {
+	color:#900;
+}
+#tex {
+	padding:40px;
+	font-size:16px;
+	color:#333;
+	line-height:30px;
+}
+#tex p {
+	line-height:30px;
+}
+.pagelink_xl {
+	width:900px;
+	height:66px;
+	text-align:center;
+	font-size:14px;
+	margin:0 auto;
+	color:#00F;
+}
+
+.pagelink_xl ol {
+	margin:0 auto;
+}
+.pagelink_xl ol li {
+	display:inline;
+}
+.pagelink_xl span {
+	background:url(../images/bg_pagelink_xl.gif) no-repeat;
+}
+.pagelink_xl span,
+.pagelink_xl a {
+	display:inline-block;
+	height:20px;
+	line-height:20px;
+	margin:0 auto;
+	text-align:center;
+	width:46px;
+	color:#666;
+	margin-bottom:10px;
+	 
+}
+ 
+
+.pagelink_xl span.next,
+.pagelink_xl a.next {
+	width:50px;
+	height:22px;
+	line-height:22px;
+	color:#666;
+	font-size:12px;
+	background:url(../images/bg_next_xl.jpg) no-repeat;
+	display:inline-block;
+}
+.pagelink_xl a.next {
+	color:#333;
+}
+
+.bottom_tex {
+	height:22px;
+	overflow:hidden;
+	border-top:1px solid #CCC;
+	padding:15px 0;
+	margin-top:20px;
+}
+.backtop {
+	width:70px;
+	height:22px;
+	float:right;
+}
+.editor_tex {
+	width:200px;
+	float:left;
+	line-height:22px;
+}
+.backtop img {
+	width:70px;
+	height:22px;
+}
+
+
+#main_1st .left .news_tex {
+	width:670px;
+	padding:10px 20px;
+	overflow:hidden;
+	border:1px solid #CCC;
+}
+.news_title {
+	height:30px;
+	border-bottom:1px solid #666;
+	position:relative;
+}
+.news_title_left {
+	font-size:14px;
+	font-weight:bold;
+	line-height:28px;
+	border-bottom:3px solid #FF4200;
+	position:absolute;
+	left:0;
+	top:0;
+	padding:0 5px;
+}
+.news_box {
+	padding-top:10px;
+	overflow:hidden;
+}
+.news_box li {
+	font-size:14px;
+	margin-left:14px;
+}
+.news_box li a {
+	color:#333;
+}
+.news_box li a:hover {
+	color:#f00;
+}
+.news_box li span {
+	color:#666;
+	font-size:12px;
+	padding-left:20px;
+}
+
+
+
+#main_1st .right {
+	width:250px;
+	overflow:hidden;
+}
+.right_box{
+	width:303px;
+	border:1px solid #CCC;
+	overflow:hidden;
+	margin-bottom:10px;
+}
+.right_title {
+	height:27px;
+	background:#F7F7F7;
+	border-bottom:3px solid #E3E3E3;
+}
+.right_titleleft {
+	float:left;
+	padding:0 10px;
+}
+
+
+.right_box ul li {
+	margin:0 10px;
+	height:auto;
+}
+.right_box ul li{
+	height:25px;
+}
+.right_box dl dt{
+	width:286px;
+	height:62px;
+	overflow:hidden;
+	margin-top:10px;
+	margin-bottom:15px;
+}
+.right_box dl dd{
+	float:left;
+	width:136px;
+	height:63px;
+	overflow:hidden;
+	margin-left:11px!important;
+	margin-left:7px;
+	margin-right:0px;
+}
+p {
+	line-height:normal;
+}
+.font_blue {
+	color:#0C50CC;
+	font-weight:normal;
+}
+#footer {
+	width:980px;
+	margin:20px auto 0;
+	border-top:2px solid #CCC;
+	padding:10px 0;
+}
+#huiding{
+display:block;
+float:right;
+background:url(../images/xl_backtop.jpg) no-repeat top left;
+height:22px;
+width:70px;}

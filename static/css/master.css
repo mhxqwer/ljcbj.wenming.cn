@@ -1,0 +1,185 @@
+﻿@charset "utf-8";
+/* CSS Document */
+
+*, body{
+	padding: 0px;
+	margin:0 auto;
+}
+/*网页改黑�?
+html { filter:progid:DXImageTransform.Microsoft.BasicImage(grayscale=1); } */
+
+body {
+    font-family:"宋体";
+	color: #000000;
+	font-size:12px;
+	text-align:left;
+	background:#FFF;
+}
+dl,
+ul {
+	padding:0;
+	margin:0;
+}
+h2{/*小头�?/
+	font-size:16px;
+	font-weight:bold;
+	text-align:center;
+}
+h3{/*栏目标题*/
+	font-size:14px;
+	font-weight:bold;
+	text-align:center;
+}
+h4{
+	font-size:12px;
+	font-weight:bold;
+	text-align:center;
+}
+li{
+	line-height:25px;
+	overflow:hidden;
+	list-style:none;
+}
+ul li{	
+	background:url(../images/point.gif) left 10px no-repeat;
+	padding-left:10px;
+	margin:0 auto;
+}
+ul li.red{	
+	background:url(../images/point_red.gif) left 10px no-repeat;
+}
+ul li.round_red{	
+	background:url(../images/point_round_red.gif) left 10px no-repeat;
+}
+ul li.triangle_red{	
+	background:url(../images/point_triangle_red.gif) left 6px no-repeat;
+}
+ol li{
+	padding:0px;
+	list-style:none;
+}
+dd{
+	line-height:25px;
+}
+p{
+	line-height:20px;
+}
+#logo{
+	background:url(../images/logo.jpg) no-repeat;
+	width:120px;
+	height:120px;
+	float:left;
+}
+a{
+	text-decoration:none;
+	color:#000;
+}
+a:hover{
+	text-decoration:underline;
+	color:#F00;
+}
+.more{
+	float:right;
+	font-weight:normal;
+	padding-right:6px;
+	font-size:12px;
+}
+.more a {
+	color:#666;
+}
+.more a:hover {
+	color:#F00;
+}
+img {
+    border: none;
+}
+.bold{
+	font-weight:bold;
+}
+.left{
+	float:left;
+	overflow:hidden;
+}
+.mid{
+	float:left;
+	margin-left:10px;
+}
+.right{
+	float:right;
+}
+.red,
+.red a{
+	color:#F00;
+}
+.f99,
+.f99 a{
+	color:#900;
+}
+.no_Point{
+	background:none;
+	padding:0px;
+}
+.hidden{
+	display:none;
+}
+.limar{
+	display:block;
+}
+dt,
+.title{
+	position:relative;
+	height:28px;
+	line-height:28px;
+	text-align:left;
+}
+#footer{
+	text-align:center;
+}
+.noline{
+	border:0px;
+}
+.main_box{
+	overflow:hidden;
+}
+.hr_10,
+.hr_5{
+	height:10px;
+	clear:both;
+	font-size:1px;
+	line-height:1px;
+	overflow:hidden;
+}
+.hr_5{
+	height:5px;
+}
+.sub_title{
+	float:left;
+	margin-right:10px;
+}
+.font_14{
+	font-size:14px;
+}
+.line{
+	border-bottom:1px solid #CCC;
+	height:1px;
+	line-height:1px;
+	overflow:hidden;
+}
+.blue_line{
+	border:1px solid #0850AB;
+}
+.f9a_line{
+	border:1px solid #9A9A9A;
+}
+
+.nopd_one {
+	padding-left:0;
+	padding-right:0;
+}
+.nopd_two {
+	padding-top:0;
+	padding-bottom:0;
+}
+.nopd_three {
+	padding:0;
+}

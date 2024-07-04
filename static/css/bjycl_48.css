@@ -1,0 +1,227 @@
+html, body, div, span, applet, object, iframe, 
+h1, h2, h3, h4, h5, h6, p, blockquote, pre, 
+a, abbr, acronym, address, big, cite, code, 
+del, dfn, em, font, img, ins, kbd, q, s, samp, 
+small, strike, strong, sub, sup, tt, var, 
+b, u, i, center, 
+dl, dt, dd, ol, ul, li, 
+fieldset, form, label, legend, 
+table, caption, tbody, tfoot, thead, tr, th, td { 
+ margin: 0; 
+ padding: 0; 
+ border: 0 none; 
+ outline: 0; 
+ font-size: 100%; 
+ vertical-align: baseline; 
+ background: transparent; 
+} 
+body { 
+ line-height: 1;
+} 
+ol, ul { 
+ list-style: none; 
+} 
+blockquote, q { 
+ quotes: none; 
+} 
+blockquote:before, blockquote:after, 
+q:before, q:after { 
+ content: none; 
+} 
+  
+/* 元素获得焦点时的样式! */ 
+:focus { 
+ outline: 0; 
+} 
+  
+/* 特殊文本的样式! */ 
+ins { 
+ text-decoration: none; 
+} 
+del { 
+ text-decoration: line-through; 
+} 
+  
+/* 细线表格样式 */ 
+table { 
+ border-collapse: collapse; 
+ border-spacing: 0; 
+}
+a{
+color:#313131;
+text-decoration:none;}
+#box{
+	width:250px;
+	margin:0;
+	position:relative;
+	}
+.news,.qxdt,.zxdt{
+	width:250px;
+	clear:both;
+	margin-top:8px;
+	}
+.news_top,.qxdt_top,.zxdt_top{
+	width:250px;
+	height:26px;
+	background-color:#f7f7f7;
+	border-bottom:3px solid #e4e4e4;
+	}
+.news_top h2,.qxdt_top h2,.zxdt_top h2{
+	padding-top:8px;
+	padding-left:15px;
+	font-size:14px;
+	text-align:left;
+	}
+.news_gd,.qxdt_gd,.zxdt_gd{
+	color:#4f4f4f;
+	float:right;
+	margin-right:7px;
+	margin-top:-20px;
+	font-size:12px;
+	}
+
+.news_nr,.qxdt_nr,.zxdt_nr{
+	border:1px solid #9c9c9c;
+	float:left;
+	width:248px;
+	margin-bottom:10px;
+	overflow:hidden;
+	}
+.news_nr img{
+	border:1px solid #d0cfcd;
+	margin-top:10px;
+	margin-left:8px;
+	margin-right:8px;
+	float:left;
+	}
+.news_nr span{
+    display:block;
+	float:right;
+	width:180px;
+	margin-left:2px;
+	}
+.news_nrzw{
+	width:247px;
+	margin-top:10px;
+	float:left;
+	line-height:22px;
+	}
+.font1{
+	font-size:12px;
+	color:#363636;
+	font-weight:bold;
+	margin-bottom:8px;
+	display:block;
+	float:right;	
+	}
+.list{
+	width:240px;
+	margin-left:7px;
+	margin-right:9px;
+	display:block;
+	}
+.list p{
+	color:#4c4c4c;
+	line-height:20px;
+	}
+.list img{
+	border:1px #6b695c solid;
+	clear:both;
+	margin:auto;
+	position:relative;
+	}
+.tu{
+	width:286px;
+	float:left;
+	}
+.tu img{
+	float:left;
+	width:134px;
+	margin-top:13px;
+	}
+/*  区县动态  */
+
+
+
+.qxdt_gd{
+	color:#4f4f4f;
+	float:right;
+	margin-right:7px;
+	margin-top:-20px;
+	}
+{
+	border:1px solid #9c9c9c;
+	height:272px;
+	float:left;
+	width:303px;
+	margin-bottom:10px;
+	
+	}
+.qxdt_nrzw{
+	width:185px;
+	margin-top:10px;
+	float:left;
+	line-height:22px;
+	}
+
+.list_ p{
+	color:#4c4c4c;
+	line-height:23px;
+	}
+.xian{
+	width:285px;
+	height:1px;
+	margin-bottom:8px;
+	margin-top:8px;
+	border-bottom:#ccc 2px solid;
+	}
+.dm{
+	width:278px;
+	margin-left:10px;
+	margin-right:10px;
+	}
+.dm ul li{
+	float:left;
+	display:inline;
+	margin-right:10px;
+	line-height:23px;
+	}
+	
+	
+/*  在线动态  */
+
+.zxdt_nrzw{
+	width:185px;
+	margin-top:10px;
+	float:left;
+	line-height:22px;
+	}
+.zxdt_nr img{
+	border:1px solid #d0cfcd;
+	display:block;
+	margin:5px auto;
+	}
+.zxdt_nr h3{
+	font-size:14px;
+	text-align:center;
+	margin-bottom:8px;
+	margin-top:8px;
+	} 
+.zxdt_nr p{
+	line-height:23px;
+	margin-left:10px;
+	margin-right:10px;
+	line-height:22px;
+	font-size:12px;
+	}
+
+
+.list ul{
+font-size:12px;
+line-height:18px;
+text-align:left;
+clear:both;}
+.dm a{
+white-space:nowrap;
+margin-right:5px;
+}
